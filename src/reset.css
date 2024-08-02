@@ -1,0 +1,54 @@
+/* RESET PROPERTIES */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('../images/bg-repeat.jpg');
+    background-repeat: repeat-x;
+    background-position: cover;
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RESET PROPERTIES */
+
+/* JavaScript Classes */
+
+.redBdr {
+    border: 1px solid var(--error-color) !important;
+}
+
+.greenBdr {
+    border: 1px solid var(--pass-color) !important;
+}
+
+.mandatoryText.showError {
+    display: block !important;
+}
+
+/* JavaScript Classes */
+
+/* CSS Variables */
+
+:root{
+    --light-color: #fff;
+    --error-color: rgb(255, 0, 0);
+    --pass-color: #3CCC87;
+    --gap15: 1.5rem;
+}
+
+/* CSS Variables */
